@@ -1,0 +1,23 @@
+{
+  "name": "lab06_scss_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroav93/Lab06_SCSS_Webpack.git"
+  },
+  "author": "Alejandro Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroav93/Lab06_SCSS_Webpack/issues"
+  },
+  "homepage": "https://github.com/alejandroav93/Lab06_SCSS_Webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1"
+  }
+}
