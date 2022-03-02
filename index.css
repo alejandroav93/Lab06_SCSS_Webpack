@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+  
+  body {
+    display:inherit;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("source/background_scroll.jpg");
+  }
+ 
+  .p_index{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .title_index{
+    text-align: center;
+    color: brown;
+    font-size: 48px;
+  }
+
+  .p2_index{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .list_index{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .list{
+    font-weight: bold;
+    text-align: center;
+  }
