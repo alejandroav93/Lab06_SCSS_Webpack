@@ -12,55 +12,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Attack: Thundershock</title>
+    <link rel="stylesheet" href="thundershock.css" type="text/css">
+    <script src="thundershock.js"></script>
+    <script src="thundershocklink.js"></script>
 </head>
 <body background="source/background_scroll.jpg">
     <div>
-        <h1>
-            <b>
-                Your Used Thundershock!
-            </b>
+        <h1 class="h1_thundershock" id="h1_thundershock">
         </h1>
-            <p>
-                <b>
-                    Your Pikachu Used Thundershock! It was a critial hit!!
-                    Eevee is now Paralized!
-                </b>
-            <br>
-            <br>
-                <b>
-                    What will you do?
-                </b>
+            <p class="p1_thundershock" id="p1_thundershock">
             </p>
-            <figure>
-                <video width="540" height="320" controls>
-                    <source src="source/Shock_1.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <figcaption>Copyright: The Pokémon Company Inc./Game Freak Co., Ltd/ Nintendo Co., Ltd</figcaption>
-            </figure>
+            <br>
+            <br>
+            <p class="p2_thundershock" id="p2_thundershock">
+            </p>
+            <div class="figure_thundershock" id="figure_thundershock">
+                <figure>
+                    <video width="540" height="320" controls>
+                        <source src="source/Shock_1.mp4" type="video/mp4">
+                    </video>
+                    <figcaption class="caption_thundershock" id="caption_thundershock"></figcaption>
+                </figure>
+            </div>
         <details>
-            <summary>
-                <b>
-                    Battle Moves (dropdown)
-                </b>
+            <summary class="summary_thundershock" id="summary_thundershock">
             </summary>     
              <ul>
-                <li>
-                    <b><a href="thundershock2.html">Thundershock</a></b>
+                <li class="list1" id="list1">
+                    <a id="link1" href="thundershock2.html"></a>
                 </li>
-                <li>
-                    <b><a href="tailwhip2.html">Tail Whip</a></b>
+                <li class="list2" id="list2">
+                    <a id="link2" href="tailwhip2.html"></a>
                 </li>
-                <li>
-                    <b><a href="growl2.html">Growl</a></b>
+                <li class="list3" id="list3">
+                    <a  id="link3" href="growl2.html"></a>
                 </li>
         </ul>
     </details>
     <br>
-    <label for="file"><b>Story progress:</b></label>
-    <progress id="file" value="50" max="100"> 50% </progress>
+    <div class="footer" id="footer">
+        <label id="label_file" class="label_file" for="file"></label><br>
+        <progress id="file" max="100"></progress>
+    </div>
 
-    </div>   
+</div>   
     
 </body>
 </html>
