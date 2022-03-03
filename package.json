@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "repository": {
@@ -17,7 +16,15 @@
     "url": "https://github.com/alejandroav93/Lab06_SCSS_Webpack/issues"
   },
   "homepage": "https://github.com/alejandroav93/Lab06_SCSS_Webpack#readme",
+  "dependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
   "devDependencies": {
-    "webpack": "^5.69.1"
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   }
 }
